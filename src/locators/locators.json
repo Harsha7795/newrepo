@@ -1,0 +1,13 @@
+{
+
+ "login":
+         {
+          "username":"//*[@id='username']",
+          "password":"//*[@id='password']",
+          "loginButn":"//*[@id='submit']",
+          "validCred":"//*[text()='Logged In Successfully']",
+          "invalidCredentials":"//*[@id='error']"
+
+        }
+        
+}

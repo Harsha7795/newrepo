@@ -1,0 +1,401 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-functionality;login-with-valid-credentials",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "login with valid credentials",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 18576388500
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 18781052100
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "user navigate on \"https://practicetestautomation.com/practice-test-login/\"",
+            "match": {
+              "location": "src\\stepDefinitions\\loginSteps.ts:8"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 181449099
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "user entered username as \"student\"",
+            "match": {
+              "location": "src\\stepDefinitions\\loginSteps.ts:14"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 27678100
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "user entered password as \"Password123\"",
+            "match": {
+              "location": "src\\stepDefinitions\\loginSteps.ts:18"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 3322778099
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "user clicks the login button",
+            "match": {
+              "location": "src\\stepDefinitions\\loginSteps.ts:22"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 212161399
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "user navigates to next page",
+            "match": {
+              "location": "src\\stepDefinitions\\loginSteps.ts:26"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 2001360899
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke",
+            "line": 6
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-functionality;login-with-invalid-credentials",
+        "keyword": "Scenario Outline",
+        "line": 22,
+        "name": "login with invalid credentials",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1644749400
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 3431499400
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "user navigate on \"https://practicetestautomation.com/practice-test-login/\"",
+            "match": {
+              "location": "src\\stepDefinitions\\loginSteps.ts:8"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 107357600
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "user entered username as \"Harsha775\"",
+            "match": {
+              "location": "src\\stepDefinitions\\loginSteps.ts:14"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 32870000
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "user entered password as \"Password123\"",
+            "match": {
+              "location": "src\\stepDefinitions\\loginSteps.ts:18"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 118753599
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "user clicks the login button",
+            "match": {
+              "location": "src\\stepDefinitions\\loginSteps.ts:22"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 47048999
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "user will get invalid credentials",
+            "match": {
+              "location": "src\\stepDefinitions\\loginSteps.ts:31"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 2674415099
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression",
+            "line": 13
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-functionality;login-with-invalid-credentials",
+        "keyword": "Scenario Outline",
+        "line": 23,
+        "name": "login with invalid credentials",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 2150111600
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 3618029899
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "user navigate on \"https://practicetestautomation.com/practice-test-login/\"",
+            "match": {
+              "location": "src\\stepDefinitions\\loginSteps.ts:8"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 109398900
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "user entered username as \"student\"",
+            "match": {
+              "location": "src\\stepDefinitions\\loginSteps.ts:14"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 56508100
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "user entered password as \"Harsha775\"",
+            "match": {
+              "location": "src\\stepDefinitions\\loginSteps.ts:18"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 114987600
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "user clicks the login button",
+            "match": {
+              "location": "src\\stepDefinitions\\loginSteps.ts:22"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 23940000
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "user will get invalid credentials",
+            "match": {
+              "location": "src\\stepDefinitions\\loginSteps.ts:31"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 2008311799
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression",
+            "line": 13
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-functionality;login-with-invalid-credentials",
+        "keyword": "Scenario Outline",
+        "line": 24,
+        "name": "login with invalid credentials",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1742840299
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 7044352299
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "user navigate on \"https://practicetestautomation.com/practice-test-login/\"",
+            "match": {
+              "location": "src\\stepDefinitions\\loginSteps.ts:8"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 100466499
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "user entered username as \"Harsha775\"",
+            "match": {
+              "location": "src\\stepDefinitions\\loginSteps.ts:14"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 38085000
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "user entered password as \"Harsha775\"",
+            "match": {
+              "location": "src\\stepDefinitions\\loginSteps.ts:18"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 122830500
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "user clicks the login button",
+            "match": {
+              "location": "src\\stepDefinitions\\loginSteps.ts:22"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 16164199
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "user will get invalid credentials",
+            "match": {
+              "location": "src\\stepDefinitions\\loginSteps.ts:31"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 2412989000
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression",
+            "line": 13
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-functionality",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Login functionality",
+    "tags": [],
+    "uri": "src\\features\\login.feature"
+  }
+]

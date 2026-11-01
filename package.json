@@ -1,0 +1,23 @@
+{
+  "name": "mainbddproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "smoke": "npx cucumber-js --tags @Smoke",
+    "regression": "npx cucumber-js --tags @Regression",
+    "report": "allure generate allure-results --clean && allure open allure-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@cucumber/cucumber": "^13.3.0",
+    "@playwright/test": "^1.61.1",
+    "@types/node": "^26.6.5",
+    "allure-cucumberjs": "^3.14.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
+  }
+}
